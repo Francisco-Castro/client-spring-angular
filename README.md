@@ -11,11 +11,11 @@ Angular Basic Components
 - Footer
 
 
-Boostrap
-- bootstrap.min.css -> head
-- jquery.* -> body
-- popper.min.js -> body
-- bootstrap.min.js -> body
+Boostrap order
+- bootstrap.min.css (head)
+- jquery.* (body)
+- popper.min.js (body)
+- bootstrap.min.js (body)
 
 
 
