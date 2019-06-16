@@ -35,7 +35,7 @@ footer.component.css
 }
 ```
 
-### Step 3. Create 'listOfItems' component
+### Step 3. Create 'listOfCourses' component
 Example of the use of the Structural directive `*ngFor`.
 - Generate the component using: `ng g c listOfItems`
 - `listOfCourses: string[] = ['Typescript', 'Java', 'JS', 'HTML'];`
@@ -44,7 +44,7 @@ Example of the use of the Structural directive `*ngFor`.
   <li class="list-group-item" ngFor="let course of listOfCourses"> {{course}} </li>
 <ul>  
 ```
-- Include the listOfItems's selector to the corresponding HTML. `<app-listOfItems></app-listOfItems>`
+- Include the listOfItems's selector to the corresponding HTML. `<app-listOfCourses></app-listOfCourses>`
 
 
 
