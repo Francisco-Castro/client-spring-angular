@@ -37,7 +37,12 @@ footer.component.css
 
 ### Step 3. Create 'listOfItems' component
 - `ng g c listOfItems`
-- `listOfCourses: string[] = ['Java', 'JS', 'HTML'];`
+- `listOfCourses: string[] = ['Typescript', 'Java', 'JS', 'HTML'];`
+``` html
+<ul class="list-group">
+  <li class="list-group-item" ngFor="let course of listOfCourses"> {{course}} </li>
+<ul>  
+```
 
 
 
