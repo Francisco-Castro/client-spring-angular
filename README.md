@@ -24,15 +24,15 @@ Step 1. Creating the header component
 Step 2. Creating the footer component
 - ng generate class footer
 
-css:
-`
+footer.component.css
+```
 .footer {
   position: absolute;
   bottom: 0px;
   height: 60px;
   width: 100%;
 }
-`
+```
 
 
 
