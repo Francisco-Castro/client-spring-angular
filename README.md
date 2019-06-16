@@ -25,7 +25,7 @@ Step 2. Creating the footer component
 - ng generate class footer
 
 footer.component.css
-```
+``` css
 .footer {
   position: absolute;
   bottom: 0px;
