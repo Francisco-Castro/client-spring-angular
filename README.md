@@ -18,7 +18,7 @@ Boostrap order
 - bootstrap.min.js (body)
 
 Step 1. Creating the header component
-- ng g c header
+- `ng g c header`
 - Include the NavBar from Bootstrap.
 
 Step 2. Creating the footer component
