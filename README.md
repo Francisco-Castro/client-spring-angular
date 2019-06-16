@@ -22,7 +22,7 @@ Step 1. Creating the header component
 - Include the NavBar from Bootstrap.
 
 Step 2. Creating the footer component
-- ng generate class footer
+- `ng generate component footer`
 
 footer.component.css
 ``` css
