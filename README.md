@@ -17,6 +17,22 @@ Boostrap order
 - popper.min.js (body)
 - bootstrap.min.js (body)
 
+Step 1. Creating the header component
+- ng g c header
+- Include the NavBar from Bootstrap.
+
+Step 2. Creating the footer component
+- ng generate class footer
+
+css:
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  height: 60px;
+  width: 100%;
+}
+
 
 
 
