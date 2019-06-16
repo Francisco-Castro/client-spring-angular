@@ -19,11 +19,11 @@ Boostrap order
 - bootstrap.min.js (body)
 
 ### Step 1. Create 'header' component
-- `ng g c header`
+- Generate the component using: `ng g c header`
 - Include the NavBar from Bootstrap.
 
 ### Step 2. Create 'footer' component
-- `ng generate component footer`
+- Generate the component using: `ng generate component footer`
 
 footer.component.css
 ``` css
@@ -36,7 +36,8 @@ footer.component.css
 ```
 
 ### Step 3. Create 'listOfItems' component
-- `ng g c listOfItems`
+Example of the use of the Structural directive `*ngFor`.
+- Generate the component using: `ng g c listOfItems`
 - `listOfCourses: string[] = ['Typescript', 'Java', 'JS', 'HTML'];`
 ``` html
 <ul class="list-group">
