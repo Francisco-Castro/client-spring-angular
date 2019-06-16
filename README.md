@@ -44,6 +44,7 @@ Example of the use of the Structural directive `*ngFor`.
   <li class="list-group-item" ngFor="let course of listOfCourses"> {{course}} </li>
 <ul>  
 ```
+- Include the listOfItems's selector to the corresponding HTML. `<app-listOfItems></app-listOfItems>`
 
 
 
