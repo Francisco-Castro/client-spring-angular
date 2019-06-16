@@ -12,6 +12,7 @@ Angular Basic Components
 
 
 Boostrap order
+- Website: https://getbootstrap.com/docs/4.3/getting-started/download/
 - bootstrap.min.css (head)
 - jquery.* (body)
 - popper.min.js (body)
