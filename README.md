@@ -35,6 +35,9 @@ footer.component.css
 }
 ```
 
+Step 3. Create 'listOfItems' component
+- `ng g c listOfItems`
+
 
 
 
