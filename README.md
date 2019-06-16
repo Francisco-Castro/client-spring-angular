@@ -18,11 +18,11 @@ Boostrap order
 - popper.min.js (body)
 - bootstrap.min.js (body)
 
-Step 1. Create 'header' component
+### Step 1. Create 'header' component
 - `ng g c header`
 - Include the NavBar from Bootstrap.
 
-Step 2. Create 'footer' component
+### Step 2. Create 'footer' component
 - `ng generate component footer`
 
 footer.component.css
@@ -35,9 +35,9 @@ footer.component.css
 }
 ```
 
-Step 3. Create 'listOfItems' component
+### Step 3. Create 'listOfItems' component
 - `ng g c listOfItems`
-- listOfCourses: string[] = ['Java', 'JS', 'HTML']; 
+- `listOfCourses: string[] = ['Java', 'JS', 'HTML'];`
 
 
 
