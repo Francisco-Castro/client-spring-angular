@@ -41,7 +41,7 @@ Example using the Structural directives `*ngFor` and `ngIf`.
 - `listOfCourses: string[] = ['Typescript', 'Java', 'JS', 'HTML'];`
 - `enable: boolean = true;`
 - `setEnable(): void { `
--    `this.enable = (this.enable == true ? false : true);`
+-  `  this.enable = (this.enable == true ? false : true);`
 - `}`
 
 ``` html
