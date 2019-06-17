@@ -36,13 +36,21 @@ footer.component.css
 ```
 
 ### Step 3. Create 'listOfCourses' component
-Example of the use of the Structural directive `*ngFor`.
+Example using the Structural directives `*ngFor` and `ngIf`.
 - Generate the component using: `ng g c listOfItems`
 - `listOfCourses: string[] = ['Typescript', 'Java', 'JS', 'HTML'];`
+- `enable: boolean = true;`
+- `setEnable(): void { `
+-    `this.enable = (this.enable == true ? false : true);`
+- `}`
+
 ``` html
-<ul class="list-group">
+<button type="button" class="btn btn-primary my-3" (click)="setEnable()"> 
+  {{ enable == true ? 'Hide' : 'Show' }} 
+</button>
+<ul class="list-group" *ngIf="enable">
   <li class="list-group-item" ngFor="let course of listOfCourses"> {{course}} </li>
-<ul>  
+</ul>  
 ```
 - Include the listOfItems's selector to the corresponding HTML. `<app-listOfCourses></app-listOfCourses>`
 
